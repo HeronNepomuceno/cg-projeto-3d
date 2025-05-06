@@ -4,7 +4,7 @@ Acesse a aplicação através do link: [https://heron-projeto-3d.netlify.app/](h
 
 ### Objetivo
 
-O projeto tem como finalidade criar uma aplicação web que visualize e manipule uma cena 3D contendo três objetos geométricos básicos, cubo, esfera e torus, com possibilidade de aplicar transformações e movimentar a câmera livremente. Sendo Torus é uma figura geométrica em um formato anelar, da qual encontrei na própria documentação da biblioteca: https://threejs.org/docs/#api/en/geometries/TorusGeometry.
+O projeto tem como finalidade criar uma aplicação web que visualize e manipule uma cena 3D contendo três objetos geométricos básicos, cubo, esfera e torus, com possibilidade de aplicar transformações e movimentar a câmera livremente. Sendo Torus uma figura geométrica em um formato anelar, da qual encontrei na própria documentação da biblioteca: https://threejs.org/docs/#api/en/geometries/TorusGeometry.
 
 ### Modelagem e Componentes da Cena
 
