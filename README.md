@@ -1,4 +1,4 @@
-*Nome do Projeto*: Montagem e visualização de uma cena 3D básica
+*Nome do Projeto*: Montagem e visualização de uma cena 3D básica<br />
 *Tecnologia Utilizada*: JavaScript + Three.js (biblioteca gráfica WebGL)
 
 ### Objetivo
@@ -7,10 +7,10 @@ O projeto tem como finalidade criar uma aplicação web que visualize e manipule
 
 ### Modelagem e Componentes da Cena
 
-Cubo: posicionado à esquerda da cena, com a cor vermelha.
-Esfera: localizada no centro, com textura oriunda de um meme de gato.
-Torus: posicionado à direita, com uma cor púrpura.
-Todos os objetos usam malhas padrão (Mesh) do Three.js com materiais texturizados aplicados por meio do THREE.TextureLoader.
+Cubo: posicionado à esquerda da cena, com a cor vermelha.<br />
+Esfera: localizada no centro, com textura oriunda de um meme de gato.<br />
+Torus: posicionado à direita, com uma cor púrpura.<br />
+Todos os objetos usam malhas padrão (Mesh) do Three.js com materiais texturizados aplicados por meio do THREE.TextureLoader.<br />
 
 ### Iluminação
 
@@ -19,7 +19,7 @@ Foi adicionada uma luz direcional para permitir a visualização clara das textu
 ### Interatividade
 O usuário pode mover a câmera livremente com o mouse (zoom, rotação e pan) usando OrbitControls.
 
-Para cada objeto, há botões específicos para ativar/desativar:
-🔁 Rotação contínua em torno de um eixo
-↕ Translação com movimento oscilante
-🔍 Escala animada (pulsações suaves)
+Para cada objeto, há botões específicos para ativar/desativar:<br />
+🔁 Rotação contínua em torno de um eixo<br />
+↕ Translação com movimento oscilante<br />
+🔍 Escala animada (pulsações suaves)<br />
