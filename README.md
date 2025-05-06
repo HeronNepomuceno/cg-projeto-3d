@@ -1,5 +1,6 @@
-*Nome do Projeto*: Montagem e visualização de uma cena 3D básica<br />
-*Tecnologia Utilizada*: JavaScript + Three.js (biblioteca gráfica WebGL)
+Montagem e visualização de uma cena 3D básica<br />
+JavaScript + Three.js (biblioteca gráfica WebGL)<br />
+Acesse a aplicação através do link: [https://heron-projeto-3d.netlify.app/](https://heron-projeto-3d.netlify.app/)
 
 ### Objetivo
 
