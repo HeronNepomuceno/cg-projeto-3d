@@ -24,3 +24,10 @@ Para cada objeto, há botões específicos para ativar/desativar:<br />
 🔁 Rotação contínua em torno de um eixo<br />
 ↕ Translação com movimento oscilante<br />
 🔍 Escala animada (pulsações suaves)<br />
+
+### Observações
+
+A esfera foi escolhida para ter textura por conta que, sem uma textura diferente, não seria possível visualizar facilmente se a esfera estava executando o movimento de rotação ou não.
+
+[Screencast from 2025-05-05 22-27-23.webm](https://github.com/user-attachments/assets/89995a26-5441-4c3a-acb9-c16a30c31a89)
+
