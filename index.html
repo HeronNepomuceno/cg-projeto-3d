@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <title>Projeto Prático: Cena 3D básica</title>
+	<style>
+    body { margin: 0; overflow: hidden; font-family: sans-serif; }
+    canvas { display: block; }
+    #controls {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      background: rgba(255,255,255,0.9);
+      padding: 10px;
+      border-radius: 8px;
+    }
+    .section {
+      margin-bottom: 10px;
+    }
+    .section-title {
+      font-weight: bold;
+      margin-top: 10px;
+    }
+    button {
+      margin: 4px 2px;
+      padding: 6px 10px;
+    }
+  </style>
+</head>
+<body>
+  <div id="controls">
+    <div class="section">
+      <div class="section-title">Cubo</div>
+      <button onclick="toggle('cube', 'rotate')">Rotação</button>
+      <button onclick="toggle('cube', 'translate')">Translação</button>
+      <button onclick="toggle('cube', 'scale')">Escala</button>
+    </div>
+    <div class="section">
+      <div class="section-title">Esfera</div>
+      <button onclick="toggle('sphere', 'rotate')">Rotação</button>
+      <button onclick="toggle('sphere', 'translate')">Translação</button>
+      <button onclick="toggle('sphere', 'scale')">Escala</button>
+    </div>
+    <div class="section">
+      <div class="section-title">Torus</div>
+      <button onclick="toggle('torus', 'rotate')">Rotação</button>
+      <button onclick="toggle('torus', 'translate')">Translação</button>
+      <button onclick="toggle('torus', 'scale')">Escala</button>
+    </div>
+  </div>
+	
+  <script src="https://cdn.jsdelivr.net/npm/three@0.132.2/build/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/three@0.132.2/examples/js/controls/OrbitControls.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
